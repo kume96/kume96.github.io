@@ -2220,12 +2220,11 @@ input, select, textarea {
 
     section#top ul{
       list-style: none;
-      margin: 60px;
     }
 
     section#top ul li {
       position: relative;
-      padding-left: 30px;
+      padding-left: 2em;
     }
 
     section#top ul li::before {
