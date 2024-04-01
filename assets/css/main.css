@@ -2235,7 +2235,7 @@ input, select, textarea {
       left: 0;
     }
     section#top ul li.supervisor::before {
-      content: '\f501';
+      content: '\f549';
     }
     section#top ul li.mail::before {
       content: '\f0e0';
