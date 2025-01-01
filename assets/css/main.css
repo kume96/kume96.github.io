@@ -2665,7 +2665,7 @@ input, select, textarea {
 
   }
 .scroll{
-  height: 160px;
+  height: 300px;
   overflow: auto;
   position: relative;
   margin: 2em 0.5em 2.5em 0.5em;
