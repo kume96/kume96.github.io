@@ -2672,3 +2672,6 @@ input, select, textarea {
   border: solid 3px #ccc;
   border-radius: 8px;
 }
+.scroll ul{
+  margin: 0;
+}
