@@ -2249,6 +2249,14 @@ input, select, textarea {
       content: '\f19c';
     }
 
+    section#top ul li.english::before {
+      content: '\f1ab';
+    }
+
+    section#top ul li.japanese::before {
+      content: '\f1ab';
+    }
+
 
       #main > section.dark {
         color: #ddd;
