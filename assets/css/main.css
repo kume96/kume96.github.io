@@ -2258,6 +2258,12 @@ input, select, textarea {
       font-family: "Font Awesome 5 Brands";
       content: '\f8d2';
     }
+    section#top ul li.student-notice::before {
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      content: "\f071";
+      color: #FFFF00;
+    }
 
     section#top ul li.english::before {
       content: '\f1ab';
