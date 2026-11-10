@@ -2228,12 +2228,18 @@ input, select, textarea {
     }
 
     section#top ul li::before {
-      font-family: "Font Awesome 5 Free";
-      font-weight: 900;
+          font-family: "Font Awesome 5 Free";
+          font-weight: 900;
       position: absolute;
-      top: 4px;
       left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 1.5em;
+      height: 1em;
+      line-height: 1;
+      text-align: center;
     }
+
     section#top ul li.supervisor::before {
       content: '\f549';
     }
@@ -2247,6 +2253,10 @@ input, select, textarea {
 
     section#top ul li.university::before {
       content: '\f19c';
+    }
+    section#top ul li.orcid::before {
+      font-family: "Font Awesome 5 Brands";
+      content: '\f8d2';
     }
 
     section#top ul li.english::before {
@@ -2682,4 +2692,23 @@ input, select, textarea {
 }
 .scroll ul{
   margin: 0;
+}
+
+.copy-bibtex {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px dotted rgba(128, 128, 128, 0.5);
+  cursor: pointer;
+  transition: color 0.35s ease-in-out,
+              border-bottom-color 0.35s ease-in-out;
+}
+
+.copy-bibtex:hover {
+  color: #e27689;
+  border-bottom-color: transparent;
+}
+
+.copy-bibtex:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 3px;
 }
